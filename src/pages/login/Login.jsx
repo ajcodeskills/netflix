@@ -1,7 +1,6 @@
 import React from "react";
 import "./login.scss";
 export default function Login() {
-  
   return (
     <div className="login">
       <div className="top">
@@ -15,7 +14,7 @@ export default function Login() {
       </div>
       <div className="container">
         <form>
-        <h1>Sign In</h1>
+          <h1>Sign In</h1>
           <input type="email" placeholder="Email or phone number" />
           <input type="password" placeholder="Password" />
           <button className="loginButton">Sign In</button>
